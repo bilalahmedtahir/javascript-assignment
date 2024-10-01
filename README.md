@@ -19,3 +19,12 @@ https://codesandbox.io/s/fake-data-um30v?file=/src/index.js
 4. As per above data set, we want to find all the rooms of a user named Amanda Smith. 
 ● First, find the user in users array with the name Amanda Smith, you will find the id of the user. 
 ● Then, filter all the rooms for which room.custom.room_creator_id is equal to the id of Amanda Smith.
+
+
+Assignment 3
+
+Sample endpoint: https://jsonplaceholder.typicode.com/posts 
+
+Using the above sample endpoint, make a function that would "log an object" with the number of posts of each individual user.
+Example: { user1: 6, user2: 10,...,user10: 3 }
+use: .then .catch
