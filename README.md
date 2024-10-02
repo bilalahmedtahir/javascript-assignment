@@ -28,3 +28,27 @@ Sample endpoint: https://jsonplaceholder.typicode.com/posts
 Using the above sample endpoint, make a function that would "log an object" with the number of posts of each individual user.
 Example: { user1: 6, user2: 10,...,user10: 3 }
 use: .then .catch
+
+Assignment 4
+
+Write a program that loops from 1 to 99 and logs: 
+i) “TWO” if the number is a multiple of 2 OR  
+ii) “FIVE” if it’s a multiple of 5 OR 
+iii) “BOTH” if it’s a multiple of both 2 and 5
+iv) If it’s none of the above, log the number as it is.
+(A multiple of a 2 means a number that is divisible by 2, eg: 2, 4, 6, …)
+
+
+Assignment 5
+
+Make a function that takes in a string as a parameter and returns the string in reverse.
+Eg: “Hello” will be returned as “olleH”
+Note: Use builtin methods
+
+
+Assignment 6 (Learn HTTP Methods and HTTP Request Methods, RESTful API methods ,Call Api with fetch)
+
+Sample endpoint: https://jsonplaceholder.typicode.com/posts 
+
+Using the above sample endpoint, "log titles in all caps" that are less than 31 characters.
+use: Async / Await
