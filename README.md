@@ -52,3 +52,51 @@ Sample endpoint: https://jsonplaceholder.typicode.com/posts
 
 Using the above sample endpoint, "log titles in all caps" that are less than 31 characters.
 use: Async / Await
+
+
+Assignment 7
+
+Write a function to create a Clock that prints the current time
+Expected Console Output:
+"09:13:12"
+"09:13:13"
+"09:13:14"
+and so on
+
+Assignment 8
+
+Write a function to sort the following array of objects by id value.
+
+var sampleArray = [ 
+      { name: 'Bashir Butt', title: 'Learn Programming', id: 6721},
+      { name: 'Sebastian Rao', title: 'Next Door', id: 1423},
+      { name: 'Julian Shane', title: 'Deep Waters', id: 5424},
+      { name: 'Sushi King', title: 'Hunger Solutions', id: 3291}
+   ];
+
+Assignment 9 
+
+Write a function that converts the following object into two arrays: 'array of keys' and 'array of values'
+
+var sampleObject = { 
+       name: 'Bashir Butt', 
+       title: 'Learn Programming', 
+       id: 6721 
+}
+
+Sample Output: ['name', 'title', 'id'] and ['Bashir Butt', 'Learn Programming', 6721]
+
+Assignment 10
+
+Write a function to convert an object into an array of `[key, value]` pairs
+
+var sampleObject = { 
+       name: 'Bashir Butt', 
+       title: 'Learn Programming', 
+       id: 6721 
+}
+
+Sample Output: [ ['name', 'Bashir Butt'], ['title', 'Learn Programming'], ['id', 6721] ]
+ 
+
+ 
