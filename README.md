@@ -97,6 +97,27 @@ var sampleObject = {
 }
 
 Sample Output: [ ['name', 'Bashir Butt'], ['title', 'Learn Programming'], ['id', 6721] ]
+
+
+Assignment 11
+
+Given two functions log a string after waiting for a random duration.  
+
+var first = setTimeout(function() {
+  console.log("first!");
+}, Math.random() * 1000);
+
+var second = setTimeout(function() {
+  console.log("second!");
+}, Math.random() * 1000);
+
+LogInOrder(first, second);
+// it should always log those two in order regardless of their time duration.
+
+Implement function "LogInOrder" using two techniques: 
+1. callbacks
+2. promises 
+ 
  
 
  
